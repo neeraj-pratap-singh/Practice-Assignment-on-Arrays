@@ -1,3 +1,4 @@
+// Move all the ones at the end of an Array
 public class ShiftOnesToEnd {
     public static void main(String[] args) {
         int[] arrNum = {3, 1, 4, 1, 2, 1, 8, 3, 2, 1};
