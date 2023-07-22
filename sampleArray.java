@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class sampleArray {
     public static void main(String[] args) {
         int[] arr;
@@ -12,11 +14,15 @@ public class sampleArray {
         String[] arr3 = {"Shadow", "Gon", "Goku", "Luffy"};
         System.out.println(arr3[3]);
         int[] numbers = {1, 2, 3, 4, 5};
-        // for (int i = 0; i < numbers.length; i++) {
-        // System.out.print(numbers[i] + " ");
-        // }
+        for (int i = 0; i < numbers.length; i++) {
+        System.out.print(numbers[i] + " ");
+        }
         for (int i : numbers) {
             System.out.print(i + " ");
         }
+        String data = Arrays.toString(arr);
+        String singleName = "test Name";
+        System.out.println(Arrays.toString(arr));
+        System.out.println(singleName.toCharArray());
     }
 }
